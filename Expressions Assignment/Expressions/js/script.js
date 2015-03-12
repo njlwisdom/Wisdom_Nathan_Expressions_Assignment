@@ -12,7 +12,17 @@ var myPay                           = 12.93;
 var hourWeek;
 //  My place of employment
 var myJob                           = "Tyson Foods Inc.";
+// Health Insurance cost per week
+var healthInsurance                 = 20;
+// Yearly Christmas Bonus from work
+var yearlyBonus                     = 100;
+var weekPay = hourWeek * myPay;
 
 //  Prompts
-hourweek = prompt ("Please enter how many hours you worked this week.");
+hourWeek = prompt ("Please enter how many hours you worked this week.");
+
+//  Outputs
+console.log("Your weekly pay should be " + weekPay + "");
+
+
 
