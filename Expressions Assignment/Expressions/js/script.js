@@ -12,8 +12,7 @@ var myPay                           = 12.93;
 var hourWeek;
 //  My place of employment
 var myJob                           = "Tyson Foods Inc.";
-// Health Insurance cost per week
-var healthInsurance                 = 20;
+
 // Yearly Christmas Bonus from work
 var yearlyBonus                     = 100;
 hourWeek = prompt("Please enter how many hours you worked this week.");
@@ -21,5 +20,8 @@ var weekPay = hourWeek * myPay
 
 console.log("Your weekly pay should be  " + weekPay + "");
 
-
+//  Variables
+var weekPay                         = 40 * 12.93
+var totalCheck                      = weekPay + 100
+    console.log("Every year at " + myJob + " I get a yearly bonus. This year I got my weekly pay check of " + weekPay + " with a $100 bonus to make my check " + totalCheck +"")
 
